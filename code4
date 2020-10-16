@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <script src="https://kit.fontawesome.com/8024e44b14.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <section class="header">
+
+            <i class="fab fa-atlassian"></i>
+            <h1 class="waxom"><a href="#">Waxom</a></h1>
+            <div class="header-container">
+                <ul>
+                    <li class="hheader"><a href="#">Home</a></li>
+                    <li class="hheader"><a href="#" class="about">About Us</a></li>
+                    <li class="hheader"><a href="#">Portfolio</a></li>
+                    <li class="hheader"><a href="#">Features</a></li>
+                    <li class="hheader"><a href="#">Blog</a></li>
+                    <li class="hheader"><a href="#">Pricing</a></li>
+                    <li class="hheader"><a href="#">Shortcodes</a></li>
+                    <li class="hheader"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-search"></i>
+
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <section class="center ">
+            <div>
+                <div class="arrow "><i class="fas fa-arrow-left "></i>
+                    <i class="fas fa-arrow-right "></i></div>
+                <div class="back ">
+                    <h2>Unique and Modern Design</h2>
+                    <h1>Portfolio PSD Template</h1>
+                    <h3>Nam liber tempor cum soluta nobiseleifend option congue nihil imper-<br> diet doming id quod placerat facer possim assum.</br>
+                    </h3>
+                    <div>
+                    </div>
+
+        </section>
+
+    </main>
+    <div class="page2">
+        <div class="block"><i class="fas fa-pen"></i>
+            <p>Web & App Design</p>
+            <br>
+            <p class="main-text-block-line">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam tempore est hic doloribus numquam qui dicta, modi </p>
+        </div>
+
+        <div class="block"><i class="fas fa-book"></i>
+            <p>Development</p>
+            <br>
+            <p class="main-text-block-line">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam tempore est hic doloribus numquam qui dicta, modi </p>
+
+        </div>
+        <div class="block"><i class="fas fa-cog"></i>
+            <p>Customization</p>
+            <br>
+            <p class="main-text-block-line">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam tempore est hic doloribus numquam qui dicta, modi </p>
+
+
+        </div>
+        <div class="block"><i class="fas fa-envelope-open-text"></i>
+            <p>Marketing</p>
+            <br>
+            <p class="main-text-block-line">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam tempore est hic doloribus numquam qui dicta, modi </p>
+
+
+        </div>
+    </div>
+    <div class="page3">
+        <div class="waxom">
+            <h1>Waxom is Realization of your ideas</h1>
+            <p class="lasttext">Investiones demonstraverunt lectores legere me lius
+                quod il legunt saepius.<br>Claritas est etiam processus dynamicus,qul sequitur mutationem consoetudium.
+            </p>
+        </div>
+        <div class="pictures">
+        </div>
+        
+    </div>
+    <div class="footer3">
+            <div class="textfooter3">
+            <h1 class="waxomcolor"><font color="wheat">Waxom</font> Multipurpose WordPress Theme</h1>
+            <p class="lasttext">Don't Forget to Rate the Template.Yhanks so much!</p>
+           
+        </div>
+         <button>
+            PURCHASE NOW
+        </button>
+        </div>
+
+        <div class="page4">
+            <div class="text4">
+                <h1 class="our">Our Latest Project</h1>
+                <p class="pod-our">Investiganiones demonstraverunt lectores legere me lius quod ii legunt sapeius.
+                    <br>Claritas est etiam processus dinamicus,qui sequitur mutationem consuetudium.</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="all" class="button2">All</button>
+            <button class="button2">Web Design</button>
+            <button class="button2">Mobile App</button>
+            <button class="button2">Illustration</button>
+            <button class="button2">Photography</button>
+        </div>
+        <div class="block66">
+            <div class="block11-3">
+            <h1 class="block1">Claritas Etiam Processus</h1>
+            <h1 class="block2">Quam Nutamus Farum</h1>
+            <h1 class="block3">Usus Legentis Videntur</h1>
+        </div>
+        <div class="block44-6">
+            <h1 class="block4">Claritas Etiam Processus</h1>
+            <h1 class="block5">Quam Nutamus Farum</h1>
+            <h1 class="block6">Usus Legentis Videntur</h1>
+        </div>
+        </div>
+
+</body>
+
+</html>
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-image: url(1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-position: center;
+}
+
+a:hover {
+  color: rgb(0, 4, 255);
+  transition: all ease 0.5s;
+}
+
+ul {
+  text-align: center;
+  display: flex;
+  list-style-type: none;
+}
+
+.imges {
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: block;
+  margin-top: 25px;
+  margin-left: 250px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hheader {
+  padding: 0 30px;
+}
+
+.waxom {
+  margin-right: 100px;
+}
+
+.about {
+  color: wheat;
+}
+
+.fab {
+  padding-right: 40px;
+  font-size: 30px;
+}
+
+main {
+  color: white;
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  display: block;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.center h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.fa-arrow-right {
+  margin-left: auto;
+  font-size: 50px;
+}
+
+.fa-arrow-left {
+  font-size: 50px;
+}
+
+.arrow {
+  padding: 0 40px;
+  display: flex;
+}
+
+.back {
+  width: 700px;
+  text-align: center;
+  margin-left: 30%;
+}
+
+.search {
+  font-size: 20px;
+  margin-left: 70px;
+}
+
+.fa-shopping-bag {
+  margin-right: 40px;
+}
+
+.page2 {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 25%;
+  background-color: white;
+  width: 100%;
+  height: 30%;
+  padding: 5%;
+}
+
+.block {
+  display: block;
+  width: 300px;
+  height: 200px;
+}
+
+.fas {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.block::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 40%;
+  margin: 0 auto;
+  background: lightslategray;
+}
+
+.main-text-block-line {
+  margin-bottom: 25px;
+}
+.page3 {
+  display: block;
+  text-align: center;
+  padding: 0 15%;
+  padding-top: 5%;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(241, 241, 241);
+}
+.lasttext {
+  font-size: 20px;
+  color: gray;
+}
+.waxom {
+  display: block;
+}
+.pictures {
+  display: block;
+  width: 110%;
+  padding-top: 69%;
+  height: 20%;
+  background-image: url(2.jpg);
+  margin-top: 3%;
+}
+.waxomcolor {
+  color: white;
+}
+.footer3 {
+  display: flex;
+  padding: 2% 15%;
+  background-color: #4c3126;
+}
+button {
+  margin-left: 30%;
+  padding: 1%;
+  color: white;
+  font-size: 150%;
+  border-top: #736356;
+  border-radius: 5px;
+  background-color: #998675;
+  display: block;
+}
+button:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.textfooter {
+  display: block;
+}
+.page4 {
+  padding: 1%;
+  margin: 1%;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  display: block;
+  background-color: white;
+}
+.our {
+  padding-bottom: 10px;
+}
+.text4 {
+  display: block;
+}
+.podour {
+  color: gray;
+}
+.buttons {
+  margin-left: 25%;
+  width: 20%;
+  display: flex;
+}
+.button2 {
+  margin-bottom: 5%;
+  padding: 1%;
+  font-size: 13px;
+  height: 40px;
+  width: 100px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  display: block;
+}
+.all {
+  margin-bottom: 5%;
+  padding: 1%;
+  font-size: 13px;
+  height: 40px;
+  width: 100px;
+  background-color: #998675;
+  color: white;
+}
+.block66 {
+  padding: 5%;
+  color: wheat;
+}
+.block11-3 {
+  text-align: center;
+  display: flex;
+}
+.block44-6 {
+  text-align: center;
+  margin-top: 25%;
+  display: flex;
+}
+.block1 {
+  margin-right: 1%;
+  display: block;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block2 {
+  margin-right: 1%;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block3 {
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block4 {
+  margin-right: 1%;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block5 {
+  margin-right: 1%;
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
+.block6 {
+  padding-top: 10px;
+  width: 30%;
+  background-color: #736356;
+  display: block;
+}
